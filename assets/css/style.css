@@ -49,6 +49,10 @@ footer {
     margin-top: 40px;
 }
 
+footer i {
+    color: red;
+}
+
 /* Remove Arrows Input/Number */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
