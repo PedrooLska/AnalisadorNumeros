@@ -45,6 +45,10 @@ body {
     color: black;
 }
 
+.wrapper h3 {
+    color: red;
+}
+
 footer {
     margin-top: 40px;
 }
