@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto';
+    outline: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    height: 100vh;
+    
+    background: linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99);
+    
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.wrapper h1, footer a {
+    color: white;
+}
+
+.wrapper input {
+    background: transparent;
+    border: solid white 1px;
+    border-radius: 50px;
+    padding: 13px 15px;
+    color: white;
+    width: 250px;
+}
+
+.wrapper button {
+    padding: 13px 20px;
+    background: transparent;
+    border: solid white 1px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.wrapper button:hover {
+    background: white;
+    color: black;
+}
+
+footer {
+    margin-top: 40px;
+}
+
+/* Remove Arrows Input/Number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance:textfield;
+}
