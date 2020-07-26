@@ -3,6 +3,7 @@
 * {
     font-family: 'Roboto';
     outline: none;
+    color: white;
 }
 
 body {
@@ -10,20 +11,13 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
     height: 100vh;
-    
     background: linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99);
-    
     text-align: center;
     box-sizing: border-box;
 }
 
-.wrapper h1, footer a {
-    color: white;
-}
-
-.wrapper input {
+.content__input {
     background: transparent;
     border: solid white 1px;
     border-radius: 50px;
@@ -32,7 +26,7 @@ body {
     width: 250px;
 }
 
-.wrapper button {
+.content__button {
     padding: 13px 20px;
     background: transparent;
     border: solid white 1px;
@@ -40,31 +34,33 @@ body {
     cursor: pointer;
 }
 
-.wrapper button:hover {
+.content__button:hover {
     background: white;
     color: black;
 }
 
-.wrapper h3 {
+.content__button h3 {
+    display: none;
     color: red;
 }
 
-footer {
-    margin-top: 40px;
+.footer {
+    margin-top: 15px;
 }
 
-footer i {
+.footer__icon-red {
     color: red;
+}
+
+.resultNumber,
+.result,
+.erro {
+    display: none;
 }
 
 /* Remove Arrows Input/Number */
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-/* Firefox */
-input[type=number] {
-    -moz-appearance:textfield;
+.content__input::-webkit-outer-spin-button,
+.content__input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
