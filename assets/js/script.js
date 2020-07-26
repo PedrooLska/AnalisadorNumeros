@@ -8,11 +8,7 @@ const arrayNumber = [];
 const validationNumber = (num) => {
     if (num >= 1 && num <= 100) {
         return true
-<<<<<<< HEAD
     } else if (num.length) {
-=======
-    } else if (num.length == 0) {
->>>>>>> a252e8ad13efee30f0ab5381c1d773cbbd2ffb74
         erroMsg('Por favor preencha o campo.');
         clearInput();
     } else {
